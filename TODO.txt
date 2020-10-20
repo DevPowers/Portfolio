@@ -1,0 +1,5 @@
+Portfolio TODO:
+*Update React Front Page and add
+    -Welcome to Dillon's Portfolio - Powered by React with a side of old-school HTML
+    -Turn 'React' into the link which takes you too React's 'Learn More' page
+    -Add another Link which takes you to a PortfolioMain page
