@@ -1,5 +1,12 @@
 Portfolio TODO:
 *Update React Front Page and add
-    -Welcome to Dillon's Portfolio - Powered by React with a side of old-school HTML
-    -Turn 'React' into the link which takes you too React's 'Learn More' page
-    -Add another Link which takes you to a PortfolioMain page
+    [X]-Welcome to Dillon's Portfolio - Powered by React with a side of old-school HTML
+    [X]-Turn 'React' into the link which takes you too React's 'Learn More' page
+    [X]-Add another Link which takes you to a PortfolioMain page
+    [] - Update CSS and HTML of PortfolioMain.HTML
+          -Add CSS styling
+          -Add HTML content with an introduction
+          -Update HTML Metadata
+    [Finish next FCC pages]
+          -Contact Page
+
