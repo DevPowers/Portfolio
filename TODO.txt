@@ -12,3 +12,12 @@ Portfolio TODO:
     [] Publish new portfolio page via github (does it work with React ?_?)
 
 
+Portfolio Big project Idea:
+
+A portfolio Tracking website with a PostGres database containing portfolio/trade information
+interacting with API's to get realtime data. Including charts that will compare to indexes.
+Initial POC: Input tickers with average cost/basis
+             Output total gains.
+Deploy to Heroku
+
+
