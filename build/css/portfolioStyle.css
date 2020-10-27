@@ -1,0 +1,81 @@
+/*responsive image that never goes larger than original width and keeps ratio*/
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*Flex: Arrange items in a single center paged column*/
+.flex-container-tribute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: beige;
+}
+
+/*Grid: Arrange items in a single center paged column*/
+.grid-container-tribute {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: black;
+  color: beige;
+}
+
+/*smile*/
+.grid-demo-body {
+  background-color: grey;
+}
+
+
+
+
+.grid-demo-main {
+  background-color: orange;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas: "..    ..       ..       ..          .. "
+                       "..  leftEye    ..    rightEye      .."
+                       "..    ..      nose     ..          .."
+                       ".. leftUpperLip ..   rightUpperLip .."
+                       ".. smileBase smileBase smileBase   .."
+                       "..   ..        ..       ..         ..";
+}
+@media (max-width: 800px) {
+  .grid-demo-main {
+    background-color: white;
+  }
+}
+
+.face {
+  background-color: red;
+  grid-gap: 1px;
+}
+
+.leftEye {
+  grid-area: leftEye;
+}
+
+.rightEye {
+  grid-area: rightEye;
+}
+
+.nose {
+  grid-area: nose;
+}
+
+.smileBase {
+  grid-area: smileBase;
+}
+
+.leftUpperLip {
+  grid-area: leftUpperLip;
+}
+
+.rightUpperLip {
+  grid-area: rightUpperLip;
+}

@@ -11,4 +11,7 @@ Portfolio TODO:
           -Contact Page
     [] Publish new portfolio page via github (does it work with React ?_?)
 
+    Portfolio website - deploy to heroku. Build a SpringBoot App to handle backend and an postgres DB for data. 
+    Asset Manifest JSON for changes to directory
+
 
